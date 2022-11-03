@@ -43,7 +43,7 @@ body {
 /* Title */
 
 .title, .logo {
-    padding: 3em 3em 3em 0;
+    padding: 3em 3em 3em 3em;
 }
 
 @media (max-width: 767px) {
@@ -55,6 +55,17 @@ body {
     }
     .logo {
         max-width: 30%;
+    }
+    img {
+        width: 100%
+    }
+    .footer .flex-footer {
+        flex-direction: column;
+    }
+    .footer .flex-footer .footer-col {
+        height: auto;
+        text-align: left;
+        margin: 0 auto;
     }
 }
 
@@ -156,7 +167,7 @@ blockquote {
 }
 
 .main > p {
-    max-width: 70%;
+    max-width: 100%;
     padding: 10px 15px;
 }
 /* HONEY STYLE FOOTER */
@@ -164,7 +175,7 @@ blockquote {
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: 300px;
+    min-height: 250px;
     background-color: tomato;
     padding: 20px;
     margin-top: 30px;
@@ -172,16 +183,19 @@ blockquote {
 .flex-footer {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     /* align-items: center; */
     /* border: 1px solid green; */
     gap: 20px;
 }
 .flex-footer > .footer-col{
     /* border: 2px solid grey; */
-    height: 200px;
+    /* height: 150px; */
     text-align: center;
     /* align-items: center; */
+}
+.footer-col a {
+    text-decoration: none;
 }
 .footer .social {
     align-self: flex-end;
