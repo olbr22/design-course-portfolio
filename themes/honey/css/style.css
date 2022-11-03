@@ -22,7 +22,6 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: honeydew;
 }
 
 .main {
@@ -34,6 +33,11 @@ body {
 }
 
 /* Header */
+
+.header {
+    border-bottom: 5em dotted lavenderblush;
+    background-color: lavender;
+}
 
 .header, .site-header {
     display: flex;
@@ -82,7 +86,7 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    /* border-top: 1px solid #222; */
 }
 
 .footer a {
@@ -108,6 +112,7 @@ p, td, th, li, dd {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    padding: 10px 15px;
     margin-bottom: 0.6em;
     font-weight: bold;
 }
@@ -159,8 +164,10 @@ blockquote {
 
 /* HONEY STYLE HOME PAGE index.md */
 .main {
-    width: 90%;
-    margin: 0 auto;
+    width: 80%;
+    margin: 48px auto;
+    background-color: honeydew;
+    border-bottom: 3em dotted rgb(230, 252, 230);
 }
 .img-home {
     max-width: 300px;
@@ -176,9 +183,13 @@ blockquote {
     flex-direction: column;
     width: 100%;
     min-height: 250px;
-    background-color: tomato;
+    background-color: lightpink;
+    border-bottom: 2em dotted lightcoral;
     padding: 20px;
-    margin-top: 30px;
+}
+.footer .before-social {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .flex-footer {
     display: flex;
