@@ -146,7 +146,7 @@ blockquote {
     border-left: 0.5em solid #f5f5f5;
 }
 
-/* Style Home Page */
+/* HONEY STYLE HOME PAGE index.md */
 .main {
     width: 90%;
     margin: 0 auto;
@@ -158,4 +158,32 @@ blockquote {
 .main > p {
     max-width: 70%;
     padding: 10px 15px;
+}
+/* HONEY STYLE FOOTER */
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 300px;
+    background-color: tomato;
+    padding: 20px;
+    margin-top: 30px;
+}
+.flex-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 1px solid green; */
+    gap: 20px;
+}
+.flex-footer > .footer-col{
+    /* border: 2px solid grey; */
+    height: 200px;
+    text-align: center;
+    /* align-items: center; */
+}
+.footer .social {
+    align-self: flex-end;
+    /* border: 1px solid yellow; */
 }
