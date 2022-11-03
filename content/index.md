@@ -6,13 +6,15 @@ Description: This is our index page.
 Home page
 ==========================
 
-The source for this page is in `content/index.md`.
+Greetings! Det här är en sida där jag ska berätta lite om mig själv. Jag är i mina early 30:ties, sorry för svengelska, men i mitt huvud lät det coolt. Jag kommer från Ukraina, ett land där krig pågår just nu 😭. Jag har bott i vackra, underbara Sverige sedan novemeber 2017, vilket är fem år om 15 dagar 😮.
 
-This is a sample home page written in markdown with some frontmatter defined.
+Detta är inte mitt första försök att bemästra webbprogrammering. Så här var det, förra året hoppade jag av programmet Webbprogrammerare på Linnéuniversitetet, för det var alldeles för svårt, tyckte jag, fick panik och hoppade av efter typ 3 månader in. Men nog om mina motgångar, det viktigaste är att jag hittils har tyckt att det här programmet passar mig superbra.
 
-Min hobby
-====================
+Jag ser fram emot att lära mig nya saker. Tycker att det är så roligt med webbteknikerna vi har lärt oss hittills.
 
-Vet inte om jag har någon hobby, men jag tycker om att utöka mina kunskaper i svenska och engelska. Jag kan försöka memorera och översätta nya ord till svenska-engelska-ukrainska så att jag kan använda de senare.
+Just det! Just nu bor jag i Göteborg (nyinflyttad), har hunnit bo i Karlskrona och Örnsköldsvik. Bor med min man och liten Lucy - ängslig men söt Jack Russell.
 
-![Red sky](%assets_url%/img/sky_small_640x426.jpg "This is img title.")
+Här någonstans på sidan lämnar jag en bild mig på min lilla familj.
+
+![Olha med sin hund Lucy](%assets_url%/img/olha_vs_lucy.jpg){.img-home}
+![Olha med sin man Alex](%assets_url%/img/alex_v_olha.jpg){.img-home}
