@@ -4,8 +4,8 @@ Tagline: My portfolio.
 Social:
     - title: Link till mitt github portfolio repo.
       url: https://github.com/olbr22/design-course-portfolio
-      icon: github
+      icon: fab fa-github
     - title: Link till Markdown cheatsheet.
       url: https://www.markdownguide.org/cheat-sheet/
-      icon: book
+      icon: fab fa-markdown
 ---
