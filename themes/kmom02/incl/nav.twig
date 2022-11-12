@@ -2,15 +2,20 @@
     <div class="site-header">
         {% if pages["_meta"].meta.logo %}
         <div class="logo">
-            <a href="{{ base_url }}">
-                <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
-            </a>
+            <div class="img-a">
+                <a href="{{ base_url }}" class="logo-img">
+                <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="Website logo" width=64 height=64 />
+                </a>
+            </div>
+            <div class="logo-text">
+            design.bruce
+            </div>
         </div>
         {% endif %}
         <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
             <a href="{{ base_url }}">
                 <h1>{{ site_title }}</h1>
-                {{ pages["_meta"].meta.tagline|markdown }}
+                {# {{ pages["_meta"].meta.tagline|markdown }} #}
             </a>
         </div>
         <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false"

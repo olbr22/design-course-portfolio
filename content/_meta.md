@@ -8,4 +8,7 @@ Social:
     - title: Link till Markdown cheatsheet.
       url: https://www.markdownguide.org/cheat-sheet/
       icon: fab fa-markdown
+    - title: Link to Typography Handbook.
+      url: https://typographyhandbook.com/
+      icon: 🔥
 ---

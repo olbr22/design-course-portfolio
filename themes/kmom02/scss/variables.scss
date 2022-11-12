@@ -1,5 +1,14 @@
-$font-color: #000;
-$font-alternative-color: #fff;
-$accent-color: #ee6c4d;
-$background-color: #3d5a80;
-$background-alternative-color: #e0fbfc;
+$font-color: darken(#d2d3d7, 10%);
+$font-alternative-color: lighten(#1d3685, 40%);
+$accent-color: #f68100;
+$background-color: #202024;
+$background-alternative-color: #3c3c3e;
+
+$p-font-family: 'Inter', sans-serif;
+$headers-font-family: 'Poppins', sans-serif;
+$font-size-p: 1.2em;
+$font-size-h1: 2em;
+$line-height: 1.6;
+
+$color-sass-btn: #ff1493;
+$color-twig-btn: #90ee90;

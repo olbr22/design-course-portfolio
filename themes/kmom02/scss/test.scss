@@ -1,0 +1,43 @@
+@mixin theme($theme: #a9a9a9) {
+    background: $theme;
+    box-shadow: 0 0 1px rgba($theme, 0.25);
+    color: #fff;
+}
+
+.old-fashioned {
+    @include theme;
+    font-size: 100%;
+    font-weight: bold;
+    background-color: rgb(237, 237, 237);
+    color: rgb(0, 0, 255);
+    width: 64rem;
+    line-height: 1;
+    margin-bottom: 16px;
+    letter-spacing: 3px;
+}
+
+.modern {
+    @include theme($theme: #8b0000);
+    font-size: 100%;
+    font-weight: normal;
+    background-color: #fff;
+    color: #212121;
+    width: 64rem;
+    line-height: 1.4;
+    margin-bottom: 32px;
+    letter-spacing: normal;
+    text-transform: uppercase;
+}
+
+.worst-ever {
+    @include theme($theme: #006400);
+    font-size: 100%;
+    font-weight: normal;
+    background-color: #fff;
+    color: #212121;
+    width: 64rem;
+    line-height: 0.9;
+    margin-bottom: 16px;
+    letter-spacing: -1px;
+    text-transform: lowercase;
+}

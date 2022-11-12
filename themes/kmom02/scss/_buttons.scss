@@ -1,0 +1,22 @@
+%btn {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin: 3px;
+    text-decoration: none;
+    color: darken($font-color, 100%);
+
+    &:hover {
+        transform: scale(0.98);
+    }
+}
+
+.btn-twig {
+    @extend %btn;
+    background-color: darken($color-twig-btn, 15%);
+}
+
+.btn-sass {
+    @extend %btn;
+    background-color: lighten($color-sass-btn, 15%);
+}

@@ -2,7 +2,6 @@
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap");
 .fa,
 .fas,
 .far,
@@ -6422,6 +6421,7 @@ template {
   display: none;
 }
 
+/* Temat ska ladda in modulen normalize.css */
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -6457,6 +6457,259 @@ pre code {
   line-height: 1.4;
 }
 
+/* Typography Style */
+/* Font-face Poppins I use for p */
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.woff") format("woff");
+  font-weight: 400; /* Regular */
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Medium.woff") format("woff");
+  font-weight: 500; /* Medium */
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-SemiBold.woff") format("woff");
+  font-weight: 600; /* Semi-bold */
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Bold.woff") format("woff");
+  font-weight: 700; /* Bold */
+}
+/* Font-face Poppins I use for headers */
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.woff") format("woff");
+  font-weight: 400; /* Regural */
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Medium.woff") format("woff");
+  font-weight: 500; /* Medium */
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-MediumItalic.woff") format("woff");
+  font-weight: 500; /* Medium */
+  font-style: italic;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Bold.woff") format("woff");
+  font-weight: 700; /* Bold */
+}
+/* Font Style */
+html {
+  font-size: 100%; /* To save users chosen font-size, normally 16px */
+}
+
+@media (min-width: 64em) {
+  html {
+    font-size: 112.5%;
+  }
+}
+body {
+  font-family: "Inter", sans-serif; /* Inter */
+  color: #899fe5;
+  background-color: #202024;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif; /* Poppins */
+  color: #899fe5;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 500; /* Medium */
+  margin-bottom: 3.19rem; /* baseline 1.45 * 2.2em */
+}
+
+h3 {
+  font-weight: 500; /* Medium */
+  font-style: italic;
+}
+
+p {
+  font-size: 1.2em;
+  font-weight: 400; /* Regular */
+  margin-bottom: 1.6rem; /* baseline 1.45 * 1.1em */
+  text-align: left;
+  color: #b7b9bf;
+}
+
+/* Typography */
+html {
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-y: scroll;
+}
+
+/* Header Style */
+.site-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-block: min(1vh, 1rem);
+}
+.site-header .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  position: relative;
+  flex-wrap: nowrap;
+}
+.site-header a {
+  display: inline-block;
+}
+.site-header .logo-text {
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  color: #f68100;
+  text-shadow: 1px 1px #000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.site-header .img-a {
+  background-color: rgba(0, 0, 0, 0.362);
+  border-radius: 50%;
+}
+
+.title h1 {
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  .site-header .title {
+    display: none;
+  }
+}
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* Main Style */
+.main {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 50em;
+  padding-block: min(2vh, 1rem);
+  padding-inline: min(3vh, 1.5rem);
+}
+.main p {
+  max-width: 100%;
+}
+
+/* Footer Style */
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-block: min(1vh, 1rem);
+  border-top: 1px solid #b7b9bf;
+}
+.footer .before-social {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.footer .social {
+  align-self: flex-end;
+}
+.footer a {
+  color: #aaabb3;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.flex-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.flex-footer h3 {
+  color: #aaabb3;
+}
+.flex-footer .footer-col a {
+  color: #899fe5;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 100%;
+  }
+  .flex-footer {
+    flex-direction: column;
+  }
+  .flex-footer .footer-col {
+    height: auto;
+    text-align: left;
+    margin: 0 auto;
+  }
+}
+.old-fashioned {
+  background: #a9a9a9;
+  box-shadow: 0 0 1px rgba(169, 169, 169, 0.25);
+  color: #fff;
+  font-size: 100%;
+  font-weight: bold;
+  background-color: rgb(237, 237, 237);
+  color: rgb(0, 0, 255);
+  width: 64rem;
+  line-height: 1;
+  margin-bottom: 16px;
+  letter-spacing: 3px;
+}
+
+.modern {
+  background: #8b0000;
+  box-shadow: 0 0 1px rgba(139, 0, 0, 0.25);
+  color: #fff;
+  font-size: 100%;
+  font-weight: normal;
+  background-color: #fff;
+  color: #212121;
+  width: 64rem;
+  line-height: 1.4;
+  margin-bottom: 32px;
+  letter-spacing: normal;
+  text-transform: uppercase;
+}
+
+.worst-ever {
+  background: #006400;
+  box-shadow: 0 0 1px rgba(0, 100, 0, 0.25);
+  color: #fff;
+  font-size: 100%;
+  font-weight: normal;
+  background-color: #fff;
+  color: #212121;
+  width: 64rem;
+  line-height: 0.9;
+  margin-bottom: 16px;
+  letter-spacing: -1px;
+  text-transform: lowercase;
+}
+
 .slide {
   overflow-y: hidden !important;
   transition: height 0.5s ease-in !important;
@@ -6469,15 +6722,16 @@ pre code {
   list-style: none;
 }
 
-.nav ul li {
+.nav li {
   padding: 0 1em;
 }
 
-.nav a, .nav-toggle {
-  color: #333;
+.nav a {
+  color: #b7b9bf;
 }
 
 .nav-toggle {
+  color: #b7b9bf;
   display: none;
 }
 
@@ -6509,10 +6763,37 @@ pre code {
     cursor: pointer;
   }
 }
-* {
-  font-family: "Montserrat", sans-serif;
+img {
+  max-width: 100%;
+  display: block;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Ubuntu", sans-serif;
+.header a {
+  color: #b7b9bf;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+}
+.header a:hover {
+  color: #899fe5;
+}
+
+.btn-sass, .btn-twig {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;
+  text-decoration: none;
+  color: black;
+}
+.btn-sass:hover, .btn-twig:hover {
+  transform: scale(0.98);
+}
+
+.btn-twig {
+  background-color: #4ee44e;
+}
+
+.btn-sass {
+  background-color: #ff61b6;
 }

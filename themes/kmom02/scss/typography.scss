@@ -1,0 +1,114 @@
+/* Typography Style */
+
+/* Font-face Poppins I use for p */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.woff') format('woff');
+    font-weight: 400; /* Regular */
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Medium.woff') format('woff');
+    font-weight: 500; /* Medium */
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-SemiBold.woff') format('woff');
+    font-weight: 600; /* Semi-bold */
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Bold.woff') format('woff');
+    font-weight: 700; /* Bold */
+}
+/* Font-face Poppins I use for headers */
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.woff') format('woff');
+    font-weight: 400; /* Regural */
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.woff') format('woff');
+    font-weight: 500; /* Medium */
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-MediumItalic.woff') format('woff');
+    font-weight: 500; /* Medium */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.woff') format('woff');
+    font-weight: 700; /* Bold */
+}
+
+/* Font Style */
+html {
+    font-size: 100%; /* To save users chosen font-size, normally 16px */
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
+
+body {
+    font-family: $p-font-family; /* Inter */
+    color: $font-alternative-color;
+    background-color: $background-color;
+    line-height: $line-height;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $headers-font-family; /* Poppins */
+    color: $font-alternative-color;
+}
+
+h1 {
+    font-size: $font-size-h1;
+    // font-weight: 400; /* Regular */
+    font-weight: 500; /* Medium */
+    // font-style: italic;
+    // font-weight: 700; /* Bold */
+    margin-bottom: 3.19rem; /* baseline 1.45 * 2.2em */
+}
+
+h3 {
+    font-weight: 500; /* Medium */
+    font-style: italic;
+}
+
+p {
+    font-size: $font-size-p;
+    font-weight: 400; /* Regular */
+    // font-weight: 500; /* Medium */
+    margin-bottom: 1.6rem; /* baseline 1.45 * 1.1em */
+    text-align: left;
+    color: $font-color;
+}
+
+// p, td, th, li, dd {
+//     text-align: justify;
+//     overflow-wrap: break-word;
+//     word-wrap: break-word;
+// }
+
+// h1, h2, h3, h4, h5, h6 {
+//     padding: 10px 15px;
+//     margin-bottom: 0.6em;
+//     font-weight: bold;
+// }
+

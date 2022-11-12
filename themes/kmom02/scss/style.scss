@@ -4,19 +4,20 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
 
-@import '../../node_modules/normalize.css/normalize';
-@import 'variables';
+@import '../../node_modules/normalize.css/normalize'; /* Temat ska ladda in modulen normalize.css */
 
+@import 'variables';
 @import 'blockquotes';
 @import 'code';
+
+@import 'typography'; /* Typography */
+@import 'init';
+@import 'header';
+@import 'container';
+@import 'main';
+@import 'footer';
+@import 'test';
 @import 'mobile-menu';
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap');
-
-* {
-    font-family: 'Montserrat', sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Ubuntu', sans-serif;
-}
+@import 'responsive';
+@import 'navigation';
+@import 'buttons';
