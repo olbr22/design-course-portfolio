@@ -1,0 +1,13 @@
+/* Main Style */
+.main {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 50em;
+    padding-block: min(2vh, 1rem);
+    padding-inline: min(3vh, 1.5rem);
+
+    p {
+        max-width: 100%;
+    }
+}

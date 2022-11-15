@@ -1,0 +1,17 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    <div class="container">
+        {% include 'incl/nav.twig' %}
+
+        <div class="main" role="main">
+            <div class="landingpage">
+                {{ content }}
+            </div>{# .landingpahe #}
+        </div>{# .main #}
+
+        {% include 'incl/footer.twig' %}
+    </div>{# .container #}
+</body>
+
+</html>

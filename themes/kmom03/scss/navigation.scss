@@ -1,0 +1,12 @@
+.header {
+    a {
+        color: $font-color;
+        font-size: 1.2em;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $font-alternative-color;
+    }
+}
