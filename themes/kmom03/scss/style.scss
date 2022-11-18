@@ -22,3 +22,9 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'navigation';
 @import 'buttons';
 @import 'report';
+@import 'technologies';
+@import 'technology';
+
+* {
+    box-sizing: border-box;
+}

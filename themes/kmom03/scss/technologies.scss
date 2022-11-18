@@ -1,0 +1,88 @@
+/* technologies.scss */
+.grid-technologies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    box-sizing: border-box;
+
+    .technology-box {
+        border: 1px solid $font-color;
+        border-radius: 4px;
+        padding: 5px;
+        width: 100%;
+
+        text-align: center;
+        padding: 2rem;
+        box-sizing: border-box;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 2rem;
+        font-weight: 500;
+        color: $accent-color;
+        display: block;
+        max-width: 100%;
+    }
+    
+    .technology-box:hover {
+        transition: transform 200ms linear, border 200ms linear, border-color 400ms ease;
+        border-color: $font-alternative-color;
+        border: 3px solid;
+    }
+}
+
+.heading-h1 {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+
+    h1 {
+        margin: 0;
+    }
+}
+
+.html {
+    grid-column-start: 2;
+    grid-column-end: span 2;
+}
+
+.javascript {
+    grid-column: 1 / span 2;
+}
+
+.python {
+    grid-column: 1 / span 3;
+}
+
+.sqlite {
+    grid-column: 2 / span 2;
+}
+
+@media (max-width: 450px) {
+    .grid-technologies {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, minmax(fit-content, 3rem));
+    }
+
+    .heading-h1 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    
+    .html {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    
+    .javascript {
+        grid-column: 1 / 1;
+    }
+    
+    .python {
+        grid-column: 1 / 1;
+    }
+    
+    .sqlite {
+        grid-column: 1 / 1;
+    }
+}

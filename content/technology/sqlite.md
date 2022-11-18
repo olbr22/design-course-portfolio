@@ -1,6 +1,7 @@
 ---
 Title: SQLite
 Description: Web technology SQLite
+Template: technology
 ---
 # SQLite
 

@@ -1,6 +1,7 @@
 ---
 Title: CSS
 Description: Web technology CSS
+Template: technology
 ---
 # CSS
 

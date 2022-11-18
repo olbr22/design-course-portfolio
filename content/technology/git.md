@@ -1,6 +1,7 @@
 ---
 Title: Git
 Description: Web technology Git
+Template: technology
 ---
 # Git
 

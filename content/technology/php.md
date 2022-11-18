@@ -1,6 +1,7 @@
 ---
 Title: PHP
-Description: Web technology PHP
+Description: Web technology 
+Template: technology
 ---
 # PHP
 

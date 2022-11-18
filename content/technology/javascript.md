@@ -1,6 +1,7 @@
 ---
 Title: JavaScript
 Description: Web technology JavaScript
+Template: technology
 ---
 # JavaScript
 

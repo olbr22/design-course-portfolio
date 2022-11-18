@@ -1,6 +1,7 @@
 ---
 Title: HTML
 Description: Web technology HTML
+Template: technology
 ---
 # HTML
 
