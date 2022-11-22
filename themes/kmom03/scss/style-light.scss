@@ -1,3 +1,4 @@
+/* style-light.scss */
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
@@ -31,5 +32,5 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 html,
 body {
-    background-color: rgb(33, 33, 33);
+    background-color: rgb(170, 170, 170);
 }

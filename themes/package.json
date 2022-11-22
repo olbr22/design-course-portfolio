@@ -8,8 +8,14 @@
   },
   "scripts": {
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass --watch kmom03/scss/style.scss kmom03/css/style.css --no-source-map",
-    "style-min": "sass kmom03/scss/style.scss kmom03/css/style.min.css --no-source-map --style compressed"
+    "watch": "sass kmom03/scss/style.scss:kmom03/css/style.css kmom03/scss/style-light.scss:kmom03/css/style-light.css --no-source-map --watch",
+    "watch-min": "sass kmom03/scss/style.scss:kmom03/css/style.min.css kmom03/scss/style-light.scss:kmom03/css/style-light.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass kmom03/scss/style.scss kmom03/css/style.css --no-source-map",
+    "style-dark-min": "sass kmom03/scss/style.scss kmom03/css/style.min.css --no-source-map --style compressed",
+    "style-light": "sass kmom03/scss/style-light.scss kmom03/css/style-light.css --no-source-map",
+    "style-light-min": "sass kmom03/scss/style-light.scss aurora/css/style-light.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

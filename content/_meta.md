@@ -1,5 +1,5 @@
 ---
-Logo: assets/img/student-logo.png
+Logo: image/student-logo.png
 Tagline: My portfolio.
 Social:
     - title: Link till mitt github portfolio repo.
@@ -11,4 +11,10 @@ Social:
     - title: Link to Typography Handbook.
       url: https://typographyhandbook.com/
       icon: 🔥
+    - title: Light Mode
+      url: ?action=theme
+      icon: fas fa-sun
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---
