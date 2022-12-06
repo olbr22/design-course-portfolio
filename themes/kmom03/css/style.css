@@ -6539,7 +6539,6 @@ h1 {
 
 h3 {
   font-weight: 500; /* Medium */
-  font-style: italic;
 }
 
 p {
@@ -6637,7 +6636,7 @@ body {
   align-self: flex-end;
 }
 .footer a {
-  color: #aaabb3;
+  color: #e77900;
   text-decoration: none;
   display: inline-block;
   margin-left: 10px;
@@ -6911,6 +6910,8 @@ img {
   justify-content: flex-start;
   gap: 1rem;
   padding: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 .technology-sidebar a {
   text-decoration: none;

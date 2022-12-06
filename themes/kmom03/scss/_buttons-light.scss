@@ -1,0 +1,23 @@
+%btn {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin: 3px;
+    text-decoration: none;
+    color: $color-btn;
+    text-transform: uppercase;
+
+    &:hover {
+        transform: scale(0.98);
+    }
+}
+
+.btn-twig {
+    @extend %btn;
+    background-color: $background-btn;
+}
+
+.btn-sass {
+    @extend %btn;
+    background-color: $background-btn;
+}

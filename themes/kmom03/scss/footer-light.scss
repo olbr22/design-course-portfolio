@@ -1,0 +1,58 @@
+/* Footer Style */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-block: min(1vh, 1rem);
+    border-top: 1px solid $font-color;
+
+    .before-social {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .social {
+        align-self: flex-end;
+    }
+
+    a {
+        color: $color-footer;
+        text-decoration: none;
+        display: inline-block;
+    }
+}
+
+.flex-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+
+    h3 {
+        color: $accent-color;
+        text-align: center;
+    }
+
+    .footer-col a {
+        color: $color-footer;
+        text-decoration: none;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .flex-footer {
+        flex-direction: column;
+
+        .footer-col {
+            height: auto;
+            text-align: left;
+            margin: 0 auto;
+        }
+    }
+}

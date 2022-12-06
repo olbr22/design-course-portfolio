@@ -7,30 +7,25 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import '../../node_modules/normalize.css/normalize'; /* Temat ska ladda in modulen normalize.css */
 
-@import 'variables';
-@import 'blockquotes';
-@import 'code';
+@import 'variables-light';
+@import 'blockquotes-light';
+@import 'code-light';
 
 @import 'typography'; /* Typography */
 @import 'init';
 @import 'header';
 @import 'container';
 @import 'main';
-@import 'footer';
+@import 'footer-light';
 @import 'test';
 @import 'mobile-menu'; /* Temporary doesn't work hamburgare menu */
 @import 'responsive';
 @import 'navigation';
-@import 'buttons';
+@import 'buttons-light';
 @import 'report';
 @import 'technologies';
 @import 'technology';
 
 * {
     box-sizing: border-box;
-}
-
-html,
-body {
-    background-color: rgb(170, 170, 170);
 }

@@ -1,0 +1,32 @@
+code {
+    margin: 0 0.1em;
+    padding: 0.1em 0.2em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: #003049;
+    color: #fdf0d5;
+    font-family: monospace;
+    font-size: 0.85rem;
+    line-height: 1.9824;
+    box-sizing: border-box;
+}
+
+pre {
+    padding: 0 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: #003049;
+    color: #fdf0d5;
+    box-sizing: border-box;
+}
+
+pre code {
+    display: block;
+    margin: 0;
+    padding: 1.1111em 0;
+    border: 0 none;
+    background: transparent;
+    overflow-x: auto;
+    line-height: 1.4;
+    box-sizing: border-box;
+}

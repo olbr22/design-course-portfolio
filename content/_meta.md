@@ -11,7 +11,7 @@ Social:
     - title: Link to Typography Handbook.
       url: https://typographyhandbook.com/
       icon: 🔥
-    - title: Light Mode
+    - title: Swap theme
       url: ?action=theme
       icon: fas fa-sun
     - title: Destroy Session
