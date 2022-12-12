@@ -6986,6 +6986,38 @@ img {
     max-width: 270px;
   }
 }
+/* image.scss */
+img, embed, object, video {
+  max-width: 100%;
+}
+
+.max-width {
+  max-width: 100%;
+}
+
+img:not([alt]) {
+  outline: 4px red dashed !important;
+}
+
+/* Responsive Video */
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -6993,4 +7025,13 @@ img {
 html,
 body {
   background-color: rgb(33, 33, 33);
+}
+
+/* IMAGE STYLE */
+.max-width {
+  max-width: 100%;
+}
+
+.full-width {
+  width: 100%;
 }

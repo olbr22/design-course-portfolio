@@ -25,7 +25,17 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'report';
 @import 'technologies';
 @import 'technology';
+@import 'image';
 
 * {
     box-sizing: border-box;
+}
+
+/* IMAGE STYLE */
+.max-width {
+    max-width: 100%;
+}
+
+.full-width {
+    width: 100%;
 }
