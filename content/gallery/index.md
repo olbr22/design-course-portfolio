@@ -57,3 +57,4 @@ Template: gallery
         </picture>
     </a>
 </div>
+<!-- I've placed video in gallery.twig. All the content inside this index file counts as part of css grid. Video got very little as a part of the greed. Looked ugly! -->
