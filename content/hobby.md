@@ -9,7 +9,7 @@ Min hobby
 Vet inte om jag har någon hobby, men jag tycker om att utöka mina kunskaper i svenska och engelska. Jag kan försöka memorera och översätta nya ord till svenska-engelska-ukrainska så att jag kan använda de senare.
 
 ![Red sky](image/sky_small_640x426.jpg "This is img title.")
-<img src="image/camera_638x640.png" srcset="image/student-logo.png 2x" class="max-width"/>
+<img src="image/camera_638x640.png" srcset="image/student-logo.png 2x" class="max-width" alt="A cartoon boy rasing right hand"/>
 
 <picture>
     <source media="(min-width: 668px)" srcset="image/student-logo.png, image/camera_638x640.png 2x">

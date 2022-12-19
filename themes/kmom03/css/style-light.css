@@ -6563,6 +6563,10 @@ body {
   overflow-y: scroll;
 }
 
+a {
+  color: #c1121f;
+}
+
 /* Header Style */
 .site-header {
   display: flex;

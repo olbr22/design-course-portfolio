@@ -20,7 +20,7 @@ Resultat
 -----------------------
 
 ## Zalando
-<a href ="../image/zalando_full_size_sshot.png">
+<a href ="../image/zalando_full_size_sshot.png" aria-label="Full screen snapshot Zalando page">
 <img src="../image/zalando.png" alt="Zalando printscreen" class="analysis-img" width="250" height="250">
 </a>
 p.s. Tryck på bilden för att få den större.
@@ -73,7 +73,7 @@ p - HelveticaNow, Helvetica, sans-serif
 Jag tycker att webbplatsens färgval och typografi motsvarar den profil webbplatsen vill ha. Alltså en webbplats med kontraster, ungdomlig, trändig, färgglad samt med känslan för stil och elegans. Korta texter och generöst med bilder.
 
 ## Internetstiftelsen
-<a href ="../image/internetstiftelsen_full_size_sshot.png">
+<a href ="../image/internetstiftelsen_full_size_sshot.png" aria-label="Full screen snapshot Internetstiftelsen page">
 <img src="../image/internetstiftelsen.png" alt="Zalando printscreen" class="analysis-img" width="250" height="250">
 </a>
 p.s. Tryck på bilden för att få den större.
@@ -125,7 +125,7 @@ p - HK Grotesk, sans-serif i olika teckensnittsvikter
 Jag tycker att webbplatsens färgval och typografi motsvarar den profil webbplatsen vill ha. Alltså en webbplats som ger kännslan av lugn dinamik och trovärdighet.
 
 ## Järnvägsföretag SJ
-<a href ="../image/sj_full_size_sshot.png">
+<a href ="../image/sj_full_size_sshot.png" aria-label="Full screen snapshot SJ page">
 <img src="../image/sj.png" alt="sj.se printscreen" class="analysis-img" width="250" height="250">
 </a>
 p.s. Tryck på bilden för att få den större.

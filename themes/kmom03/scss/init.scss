@@ -8,3 +8,7 @@ body {
     min-height: 100vh;
     overflow-y: scroll /* Always display scrollbar, avoid hopping pages */
 }
+
+a {
+    color: $font-alternative-color;
+}

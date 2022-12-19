@@ -18,7 +18,7 @@ Jag mäter sidornas laddningstid, antal resurser och sidornas totala storlek med
 Resultat
 -----------------------
 ## Zalando
-<a href ="../image/zalando_full_size_sshot.png">
+<a href ="../image/zalando_full_size_sshot.png" aria-label="Full screen snapshot Zalando page">
 <img src="../image/zalando.png" alt="Zalando printscreen" class="analysis-img" width="250" height="250">
 </a>
 p.s. Tryck på bilden för att få den större.
@@ -30,7 +30,7 @@ p.s. Tryck på bilden för att få den större.
 
 Läs om PageSpeed Insights mätvärden [här](https://developers.google.com/speed/docs/insights/v5/about#distribution).
 <div class="embed-container">
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS6X3UX0543gJpMJhS4XzPgAiR05vddDP-egH-j5-iVRcjq1jzCn1rJ9H-eNgYcbmWv0_-ikhjKJF68/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS6X3UX0543gJpMJhS4XzPgAiR05vddDP-egH-j5-iVRcjq1jzCn1rJ9H-eNgYcbmWv0_-ikhjKJF68/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" title="PageSpeed Insights Zalando"></iframe>
 </div>
 
 ### Förbättringsförslag
@@ -42,7 +42,7 @@ Enligt PageSpeed Insights kan sidan bli bättre på:
 5. Interaktiva element som knappar och länkar bör vara tillräckligt stora (48x48px) och ha tillräckligt med utrymme runt dem.
 
 ## Internetstiftelsen
-<a href ="../image/internetstiftelsen_full_size_sshot.png">
+<a href ="../image/internetstiftelsen_full_size_sshot.png" aria-label="Full screen snapshot Internetstiftelsen page">
 <img src="../image/internetstiftelsen.png" alt="Zalando printscreen" class="analysis-img" width="250" height="250">
 </a>
 p.s. Tryck på bilden för att få den större.
@@ -54,7 +54,7 @@ p.s. Tryck på bilden för att få den större.
 
 Läs om PageSpeed Insights mätvärden [här](https://developers.google.com/speed/docs/insights/v5/about#distribution).
 <div class="embed-container">
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS6X3UX0543gJpMJhS4XzPgAiR05vddDP-egH-j5-iVRcjq1jzCn1rJ9H-eNgYcbmWv0_-ikhjKJF68/pubhtml?gid=188033972&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS6X3UX0543gJpMJhS4XzPgAiR05vddDP-egH-j5-iVRcjq1jzCn1rJ9H-eNgYcbmWv0_-ikhjKJF68/pubhtml?gid=188033972&amp;single=true&amp;widget=true&amp;headers=false" title="PageSpeed Insights Internetstiftelsen"></iframe>
 </div>
 
 ### Förbättringsförslag
@@ -66,7 +66,7 @@ Enligt PageSpeed Insights kan sidan bli bättre på:
 5. Inte använda föråldrade API:er.
 
 ## Järnvägsföretag SJ
-<a href ="../image/sj_full_size_sshot.png">
+<a href ="../image/sj_full_size_sshot.png" aria-label="Full screen snapshot SJ page">
 <img src="../image/sj.png" alt="sj.se printscreen" class="analysis-img" width="250" height="250">
 </a>
 p.s. Tryck på bilden för att få den större.
@@ -78,7 +78,7 @@ p.s. Tryck på bilden för att få den större.
 
 Läs om PageSpeed Insights mätvärden [här](https://developers.google.com/speed/docs/insights/v5/about#distribution).
 <div class="embed-container">
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS6X3UX0543gJpMJhS4XzPgAiR05vddDP-egH-j5-iVRcjq1jzCn1rJ9H-eNgYcbmWv0_-ikhjKJF68/pubhtml?gid=964000597&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS6X3UX0543gJpMJhS4XzPgAiR05vddDP-egH-j5-iVRcjq1jzCn1rJ9H-eNgYcbmWv0_-ikhjKJF68/pubhtml?gid=964000597&amp;single=true&amp;widget=true&amp;headers=false" title="PageSpeed Insights SJ"></iframe>
 </div>
 
 ### Förbättringsförslag
