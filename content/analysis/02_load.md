@@ -13,7 +13,7 @@ Jag valde tre webbplatser, som enligt min åsikt tillhör olika kategorier. Mitt
 
 Metod
 -----------------------
-Jag mäter sidornas laddningstid, antal resurser och sidornas totala storlek med verktyget DevTools och fliken Network. För varje sida genomförs mätningen tre gånger och tas snittet av mätvärdena. Mätningarna sparas i [ett Excel-ark](https://docs.google.com/spreadsheets/d/1_hWjBX3PUx8hopcDvgb2CkX6Lpgr2jpPnVVWmrtDqOg/edit#gid=0). För att mäta eventuella brister i användarupplevelse använder jag verktyget PageSpeed Insights. PageSpeed Insights (PSI) rapporterar om användarupplevelsen av en sida på både mobila och stationära enheter och ger förslag på hur sidan kan förbättras.
+Jag mäter sidornas laddningstid, antal resurser och sidornas totala storlek med verktyget DevTools och fliken Network. För varje sida genomförs mätningen tre gånger och tas snittet av mätvärdena. Mätningarna sparas i [ett Excel-ark](https://docs.google.com/spreadsheets/d/1_hWjBX3PUx8hopcDvgb2CkX6Lpgr2jpPnVVWmrtDqOg/edit#gid=0). För att mäta eventuella brister i användarupplevelse använder jag verktyget [PageSpeed Insights](https://pagespeed.web.dev/). PageSpeed Insights (PSI) rapporterar om användarupplevelsen av en sida på både mobila och stationära enheter och ger förslag på hur sidan kan förbättras.
 
 Resultat
 -----------------------

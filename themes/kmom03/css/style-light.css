@@ -7025,6 +7025,28 @@ img:not([alt]) {
   height: 100%;
 }
 
+.float-right {
+  float: right;
+  padding: 10px;
+}
+
+.float-left {
+  float: left;
+  padding: 10px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Image on home page */
+.img-home {
+  margin-inline: auto;
+  padding: 1em;
+}
+
 /* grid-img-gallery.scss */
 /* Responsive Video */
 .box-600w {
@@ -7130,6 +7152,129 @@ img:not([alt]) {
     max-width: 100%;
   }
 }
+/* design-pr.scss */
+.dp-transparency {
+  position: relative;
+  max-width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.dp-transparency::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 50%;
+  background-color: #ccc;
+  background-image: url("../../../image/gallery/new-year-champagne-2001x3000.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.message-header,
+.message-text {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: relative;
+  color: #fff;
+  padding-inline: 2rem;
+  margin-bottom: 2rem;
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 0 0 2px #000, 0 0 2px #ffa500;
+}
+
+.message-header {
+  font-size: 2em;
+}
+
+.message-text {
+  font-size: 1.2em;
+}
+
+/* grid */
+.grid-design {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-template-rows: repeat(8, 10vh);
+  gap: 1em;
+  padding: 1em;
+}
+.grid-design img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.grid-design .item-1-1 {
+  grid-row: 1/span 1;
+  font-size: 2em;
+}
+.grid-design .item-1-2 {
+  grid-row: 2/span 3;
+  text-align: justify;
+}
+.grid-design .item-2 {
+  grid-row: 5/span 4;
+  grid-column: 1/span 1;
+}
+.grid-design .item-3 {
+  grid-row: 1/span 4;
+  grid-column: 2/span 2;
+}
+.grid-design .item-4-1 {
+  grid-row: 5/span 1;
+  grid-column: 2/span 1;
+  font-size: 2em;
+}
+.grid-design .item-4-2 {
+  grid-row: 5/span 4;
+  grid-column: 3/span 1;
+  text-align: justify;
+}
+
+.texture {
+  border: 3px solid #333;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+}
+.texture.texture-1 {
+  background-image: url("../../../image/portfolio/texture-1.jpg");
+  position: absolut;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.texture.texture-2 {
+  background-image: url("../../../image/portfolio/texture-2.jpg");
+  position: absolut;
+  top: 0;
+  left: -30px;
+  z-index: 2;
+}
+.texture.texture-3 {
+  background-image: url("../../../image/portfolio/texture-3.jpg");
+  position: absolut;
+  top: 0;
+  left: -60px;
+  z-index: 3;
+}
+.texture.texture-4 {
+  background-image: url("../../../image/portfolio/texture-4.jpg");
+  position: absolut;
+  top: 0;
+  left: -90px;
+  z-index: 4;
+}
+
 * {
   box-sizing: border-box;
 }

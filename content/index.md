@@ -14,5 +14,5 @@ Jag ser fram emot att lära mig nya saker. Tycker att det är så roligt med web
 
 Just det! Just nu bor jag i Göteborg (nyinflyttad), har hunnit bo i Karlskrona och Örnsköldsvik. Bor med min man och liten Lucy - ängslig men söt Jack Russell.
 
-![Olha med sin hund Lucy](%assets_url%/img/olha_vs_lucy.jpg){.img-home}
-![Olha med sin man Alex](%assets_url%/img/alex_v_olha.jpg){.img-home}
+![Olha med sin hund Lucy](image/olha_vs_lucy.jpg){.img-home .float-left}
+![Olha med sin man Alex](image/alex_v_olha.jpg){.img-home .float-right}

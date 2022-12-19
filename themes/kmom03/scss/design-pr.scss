@@ -1,0 +1,135 @@
+/* design-pr.scss */
+
+.dp-transparency {
+    position: relative;
+    max-width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.dp-transparency::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 50%;
+    background-color: #ccc;
+    background-image: url('../../../image/gallery/new-year-champagne-2001x3000.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.message-header,
+.message-text {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    color: #fff;
+    padding-inline: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0 0 2px #000, 0 0 2px #ffa500;
+}
+
+.message-header {
+    font-size: 2em;
+}
+
+.message-text {
+    font-size: 1.2em;
+}
+
+/* grid */
+.grid-design {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(8, 10vh);
+    gap: 1em;
+    padding: 1em;
+
+    
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .item-1-1 {
+        grid-row: 1 / span 1;
+        font-size: 2em;
+    }
+
+    .item-1-2 {
+        grid-row: 2 / span 3;
+        text-align: justify;
+    }
+
+    .item-2 {
+        grid-row: 5 / span 4;
+        grid-column: 1 / span 1;
+    }
+
+    .item-3 {
+        grid-row: 1 / span 4;
+        grid-column: 2 / span 2;
+    }
+
+    .item-4-1 {
+        grid-row: 5 / span 1;
+        grid-column: 2 / span 1;
+        font-size: 2em;
+    }
+
+    .item-4-2 {
+        grid-row: 5 / span 4;
+        grid-column: 3 / span 1;
+        text-align: justify;
+    }
+}
+
+.texture {
+    border: 3px solid #333;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+
+    &.texture-1 {
+        background-image: url('../../../image/portfolio/texture-1.jpg');
+        position: absolut;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    &.texture-2 {
+        background-image: url('../../../image/portfolio/texture-2.jpg');
+        position: absolut;
+        top: 0;
+        left: -30px;
+        z-index: 2;
+    }
+
+    &.texture-3 {
+        background-image: url('../../../image/portfolio/texture-3.jpg');
+        position: absolut;
+        top: 0;
+        left: -60px;
+        z-index: 3;
+    }
+
+    &.texture-4 {
+        background-image: url('../../../image/portfolio/texture-4.jpg');
+        position: absolut;
+        top: 0;
+        left: -90px;
+        z-index: 4;
+    }
+}

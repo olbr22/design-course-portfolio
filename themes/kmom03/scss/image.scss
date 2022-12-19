@@ -32,3 +32,25 @@ img:not([alt]) {
     width: 100%;
     height: 100%;
 }
+
+.float-right {
+    float: right;
+    padding: 10px;
+}
+
+.float-left {
+    float: left;
+    padding: 10px;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/* Image on home page */
+.img-home {
+    margin-inline: auto;
+    padding: 1em;
+}
